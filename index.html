@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coffee Shop</title>
+  <link rel="stylesheet" href="styles.css">
+  <!-- bootstrap Links  -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <!-- bootstrap Links  -->
+  <!-- font links -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+  <!-- font links -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <!-- above is icon link -->
+</head>
+<body>
+  <div class="all-content">
+    <!-- navbar start -->
+
+    <nav class="navbar navbar-expand-lg" id="navbar">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#" id="logo">
+          <img src="./images/coffee-logo.png" alt="">
+          <h3>Edi's Coffee Shop</h3>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span><i class="fa fa-bars" aria-hidden="true" style="color: white; font-size: 23px;"></i></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#menu">Menu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#products">Products</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#gallery">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#blogs">Blogs</a>
+            </li>      
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <!-- navbar end -->
+
+    <!-- home section start -->
+
+    <section id="home">
+      <div class="content">
+        <h3>Start Your Day with a <br> Fresh Coffee</h3>
+        <p>Enjoy a world class breakfast
+          <br>and lunch experience...</p>
+          <button id="btn">Shop Now</button>
+      </div>
+    </section>
+
+    <!-- home section end -->
+
+    <!-- about section start -->
+
+    <section id="about">
+      <div class="container">
+        <div class="heading">About <span>Us</span></div>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="card">
+              <img src="./images/about.jpg" alt="">
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <h1>What Makes Us Special?</h1>
+            <p>
+              Customers can expect a world class breakfast and lunch experience that includes dishes prepared with premium ingredients from scratch and to-order.
+              <br> A commitment to sourcing local and often organic products, refreshingly personal yet professional service by a well-trained team. <br><span id="about-span"></span>
+            </p>
+            <button id="about-btn">Learn More.</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- about section end -->
+
+    <!-- top card start -->
+
+    <section id="top-cards">
+      <div class="heading2">Top <span>Categories</span></div>
+      <div class="container">
+        <div class="row">
+
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="./images/c2.jpg" alt="">
+            </div>
+          </div>
+
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="./images/c1.jpg" alt="">
+            </div>
+          </div>
+
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="./images/c3.jpg" alt="">
+            </div>
+          </div>
+   
+        </div>
+    </section>
+
+    <!-- top card end -->
+
+    <!-- menu start -->
+
+    <section id="menu">
+      <div class="container">
+        <div class="heading3">Menu</div>
+
+        <div class="container" id="container2">
+
+          <div class="row">
+
+            <div class="col-md-3 py-3 py-md-0">
+              <div class="card">
+                <img src="./images/m1.jpg" alt="">
+
+                <div class="card-body">
+                  <div class="star text-center">
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                  </div>
+                  <h3>Coffee</h3>
+                  <p>N2,500 <strike>$N3,500</strike> <span class="fa fa-cart-shopping"></span></p>
+                </div>
+
+              </div>
+
+            </div>
+
+            <div class="col-md-3 py-3 py-md-0">
+              <div class="card">
+                <img src="./images/m2.jpg" alt="">
+
+                <div class="card-body">
+                  <div class="star text-center">
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                  </div>
+                  <h3>Coffee</h3>
+                  <p>N3,100 <strike>N3,600</strike> <span class="fa fa-cart-shopping"></span></p>
+                </div>
+
+              </div>
+
+            </div>
+
+            <div class="col-md-3 py-3 py-md-0">
+              <div class="card">
+                <img src="./images/m3.jpg" alt="">
+
+                <div class="card-body">
+                  <div class="star text-center">
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                  </div>
+                  <h3>Coffee</h3>
+                  <p>N1,800 <strike>N2,500</strike> <span class="fa fa-cart-shopping"></span></p>
+                </div>
+
+              </div>
+
+            </div>
+
+            <div class="col-md-3 py-3 py-md-0">
+              <div class="card">
+                <img src="./images/m4.jpg" alt="">
+
+                <div class="card-body">
+                  <div class="star text-center">
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                  </div>
+                  <h3>Coffee</h3>
+                  <p>N2,100 <strike>N3,000</strike> <span class="fa fa-cart-shopping"></span></p>
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+
+          <div class="row" style="margin-top: 30px;">
+
+            <div class="col-md-3 py-3 py-md-0">
+              <div class="card">
+                <img src="./images/m5.jpg" alt="">
+
+                <div class="card-body">
+                  <div class="star text-center">
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                  </div>
+                  <h3>Coffee</h3>
+                  <p>N1,500 <strike>N1,800</strike> <span class="fa fa-cart-shopping"></span></p>
+                </div>
+
+              </div>
+
+            </div>
+
+            <div class="col-md-3 py-3 py-md-0">
+              <div class="card">
+                <img src="./images/m6.jpg" alt="">
+
+                <div class="card-body">
+                  <div class="star text-center">
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                  </div>
+                  <h3>Coffee</h3>
+                  <p>N1,750 <strike>N2,250</strike> <span class="fa fa-cart-shopping"></span></p>
+                </div>
+
+              </div>
+
+            </div>
+
+            <div class="col-md-3 py-3 py-md-0">
+              <div class="card">
+                <img src="./images/m7.jpg" alt="">
+
+                <div class="card-body">
+                  <div class="star text-center">
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                  </div>
+                  <h3>Coffee</h3>
+                  <p>N2,650 <strike>N3,150</strike> <span class="fa fa-cart-shopping"></span></p>
+                </div>
+
+              </div>
+
+            </div>
+
+            <div class="col-md-3 py-3 py-md-0">
+              <div class="card">
+                <img src="./images/m8.jpg" alt="">
+
+                <div class="card-body">
+                  <div class="star text-center">
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                  </div>
+                  <h3>Coffee</h3>
+                  <p>N1,450 <strike>N2,000</strike> <span class="fa fa-cart-shopping"></span></p>
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+    </section>
+
+    <!-- menu end -->
+
+    <!-- product section start -->
+
+    <section id="products">
+      <div class="container">
+        <div class="heading4">Products</div>
+      </div>
+
+      <div class="container" id="container3">
+        <div class="row">
+          <div class="col-md-3 py-3 py-md-0">
+            <div class="card">
+              <img src="./images/classic-coffee.jpg" alt="">
+              <div class="card-body">
+                <h3>Classic Coffee</h3>
+                <p>N4,500 <strike>N5,300</strike> <span class="fa-solid fa-cart-shopping"></span></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 py-3 py-md-0">
+            <div class="card">
+              <img src="./images/tylers-coffee.jpg" alt="">
+              <div class="card-body">
+                <h3>Tyler's Coffee</h3>
+                <p>N5,100 <strike>N5,800</strike> <span class="fa-solid fa-cart-shopping"></span></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 py-3 py-md-0">
+            <div class="card">
+              <img src="./images/cappuccino-coffee.jpg" alt="">
+              <div class="card-body">
+                <h3>Cappuccino</h3>
+                <p>N4,900 <strike>N5,300</strike> <span class="fa-solid fa-cart-shopping"></span></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 py-3 py-md-0">
+            <div class="card">
+              <img src="./images/cafe-capomo-coffee.jpg" alt="">
+              <div class="card-body">
+                <h3>Cafe Capomo</h3>
+                <p>N6,100 <strike>N6,500</strike> <span class="fa-solid fa-cart-shopping"></span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- product section end -->
+
+    <!-- our gallery start -->
+
+    <div class="container" id="gallary">
+      <div class="heading5">Our <span>Gallary</span></div>
+
+      <div class="row" style="margin-top: 30px;">
+      
+        <div class="col-md-4 py-3 py-md-0">
+          <div class="card">
+            <img src="./images/g1.jpg" alt="">
+          </div>
+        </div>
+        <div class="col-md-4 py-3 py-md-0">
+          <div class="card">
+            <img src="./images/g2.jpg" alt="">
+          </div>
+        </div>
+        <div class="col-md-4 py-3 py-md-0">
+          <div class="card">
+            <img src="./images/g3.jpg" alt="">
+          </div>
+        </div>
+
+      </div>
+
+      <div class="row" style="margin-top: 30px;">
+      
+        <div class="col-md-4 py-3 py-md-0">
+          <div class="card">
+            <img src="./images/g4.jpg" alt="">
+          </div>
+        </div>
+        <div class="col-md-4 py-3 py-md-0">
+          <div class="card">
+            <img src="./images/g5.jpg" alt="">
+          </div>
+        </div>
+        <div class="col-md-4 py-3 py-md-0">
+          <div class="card">
+            <img src="./images/g6.jpg" alt="">
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- our gallery end -->
+
+    <!-- contact start -->
+
+    <section id="contact">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-md-7">
+            <div class="heading6">Contact <span>Us</span></div>
+            <p>Send us a message and we’ll get back to you as soon as possible.
+              <br>Looking forward to hearing from you!
+            </p>
+            <input type="text" class="form-control" placeholder="name" aria-label="default input example">
+            <input type="email" class="form-control" placeholder="Email" aria-label="default input example">
+            <input type="number" class="form-control" placeholder="Phone" aria-label="default input example">
+            <button id="contact-btn">Send Message</button>
+          </div>
+
+          <div class="col-md-5" id="col">
+            <h1>Info</h1>
+            <p><i class="fa-regular fa-envelope"></i>blessEdi21@gmail.com</p>
+            <p><i class="fa-solid fa-phone"></i>+2347067701322</p>
+            <p><i class="fa-solid fa-building-columns"></i>No. 10 Apata, Shomolu, Lagos State.</p>
+            <p><i>Drop by for a wonderful experience...</i></p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- contact end -->
+
+    <!-- blogs start -->
+
+    <section id="blogs">
+      <div class="heading7">Latest <span>Blogs</span></div>
+      <div class="container">
+
+        <div class="row">
+
+          <div class="col-md-4 py-3 py-md-0">
+
+            <div class="card">
+              <img src="./images/b1.jpg" alt="">
+              <div class="card-body">
+                <h3>‘The Curated’, the First Coffee Table Book</h3>
+                <h5>Admin / 30 December 2023</h5>
+                <p>As we embark on another year of curating an unparalleled coffee experience for you, we would like to<span id="blog-span1">...</span></p>
+                <button class="blog-btn" id="blog-btn1">Read More</button>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-md-4 py-3 py-md-0">
+
+            <div class="card">
+              <img src="./images/b2.jpg" alt="">
+              <div class="card-body">
+                <h3>2023 Holiday Happenings</h3>
+                <h5>Admin / 30 November 2023</h5>
+                <p>As the holiday season approaches, we are delighted to introduce you to a range of festive events and offerings<span id="blog-span2">...</span></p>
+                <button class="blog-btn" id="blog-btn2">Read More</button>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-md-4 py-3 py-md-0">
+
+            <div class="card">
+              <img src="./images/b3.jpg" alt="">
+              <div class="card-body">
+                <h3>Fall into Flavours: Pastry Additions</h3>
+                <h5>Admin / 20 August 2023</h5>
+                <p>At ECS, we strive to maintain an unparalleled coffee experience by refreshing our offerings seasonally<span id="blog-span3">...</span></p>
+                <button class="blog-btn" id="blog-btn3">Read More</button>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- blogs end -->
+
+    <!-- footer start -->
+
+    <footer id="footer">
+      <div class="footer-logo text-center">
+        <img src="./images/coffee-logo.png" alt="">
+        <h3>Edi's Coffee Shop</h3>
+      </div>
+      <div class="social-links text-center">
+        <i class="fa-brands fa-x-twitter"></i>
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-youtube"></i>
+        <i class="fa-brands fa-instagram"></i>
+      </div>
+
+      <div class="credits text-center">
+        Designed By <a href="#"><span>Daniel Davies</span></a>
+      </div>
+
+      <div class="copyright text-center">
+        &copy; Copyright <strong><span>Edis's Coffee Shop</span></strong>. All rights reserved.
+      </div>
+    </footer>
+
+    <!-- footer end -->
+
+    <a href="#" class="arrow"><i><img src="./images/arrow-up.png" alt=""></i></a>
+      
+  </div>
+  <script src="scripts.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

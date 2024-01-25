@@ -320,7 +320,7 @@ html ::-webkit-scrollbar {
 /* product section end*/
 
 /* our gallary start*/
-#gallary {
+#gallery {
   width: 100%;
 }
 
@@ -332,15 +332,15 @@ html ::-webkit-scrollbar {
   font-weight: bold;
 }
 
-#gallary .heading5 span {
+#gallery .heading5 span {
   color: #b2744c;
 }
 
-#gallary .card {
+#gallery .card {
   border-radius: 10px;
 }
 
-#gallary .card img {
+#gallery .card img {
   border-radius: 10px;
   width: 100%;
 }
